@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+}
+.sem-input{
+    padding: 12px;
+    align-content: center;
+}
+
+.sem-input input {
+    margin-left: 12px;
+}
+
+#submit-button {
+    padding: 8px;
+    margin: 12px;
+    align-content: center;
+}

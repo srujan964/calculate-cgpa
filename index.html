@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>CGPA Calculator</title>
+</head>
+
+<body>
+    <h1>Calculate your CGPA</h1>
+    <div class="sem-input">
+        <label for="input-SGPA-sem-one">Enter 1st Semester SGPA </label>
+        <input type="number" step="0.01" min="1.00" max="10.00" id="input-one" name="input-SGPA-sem-one">
+    </div>
+    <div class="sem-input">
+        <label for="input-SGPA-sem-two">Enter 2nd Semester SGPA </label>
+        <input type="number" step="0.01" min="1.00" max="10.00" id="input-two" name="input-SGPA-sem-two">
+    </div>
+    <div class="sem-input">
+        <label for="input-SGPA-sem-three">Enter 3rd Semester SGPA </label>
+        <input type="number" step="0.01" min="1.00" max="10.00" id="input-three" name="input-SGPA-sem-three">
+    </div>
+    <div class="sem-input">
+        <label for="input-SGPA-sem-four">Enter 4th Semester SGPA </label>
+        <input type="number" step="0.01" min="1.00" max="10.00" id="input-four" name="input-SGPA-sem-four">
+    </div>
+    <div class="sem-input">
+        <label for="input-SGPA-sem-five">Enter 5th Semester SGPA </label>
+        <input type="number" step="0.01" min="1.00" max="10.00" id="input-five" name="input-SGPA-sem-five">
+    </div>
+
+    <button id='submit-button' onclick='calculateCGPA()' type="submit">Submit</button>
+
+    <h1 id='result'>CGPA: </h1>
+    <script src="script.js"></script>
+</body>
+
+</html>
