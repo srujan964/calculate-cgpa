@@ -34,6 +34,5 @@ input[type=number]::-webkit-outer-spin-button {
 input[type='submit'] {
     padding: 5px;
     margin-top: 12px;
-    width: 5em;
     align-content: center;
 }
