@@ -5,7 +5,7 @@ var CGPA = document.getElementById('result');
 
 initializer.addEventListener("submit", function (e) {
     e.preventDefault();
-    form.innerHTML = `<input id='submit-button' type="submit" name="Submit">`;
+    form.innerHTML = `<input id='submit-button' type="submit" value="Submit">`;
     initFields();
 });
 
