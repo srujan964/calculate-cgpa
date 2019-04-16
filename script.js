@@ -1,4 +1,4 @@
-var credits = new Array(24, 24, 28, 28, 26, 24, 20);
+var credits = new Array(24, 24, 28, 28, 26, 26, 24, 20);
 var form = document.getElementById('input-form');
 var initializer = document.getElementById('gen-form');
 var CGPA = document.getElementById('result');
